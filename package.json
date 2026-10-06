@@ -1,0 +1,13 @@
+{
+  "name": "zijian-site-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Functional tests for zijian-site, written from SPEC.md",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  }
+}
